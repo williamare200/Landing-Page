@@ -14,7 +14,7 @@
 body {
     font-family: Roboto , sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 a {
@@ -57,6 +57,7 @@ button , .pre-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-grow: 1;
     height: 50px;
     
 
@@ -130,16 +131,22 @@ ul {
     font-style: italic;
     color: #1F2937;
     /* above don't change*/
-
 }
 
-/* Footer */
+/* Bottom Part */
+
+.bottom-part {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    color: #E5E7Eb;
+    height: 50px;
 }
 
 
