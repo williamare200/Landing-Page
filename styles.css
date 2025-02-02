@@ -14,7 +14,7 @@
 body {
     font-family: Roboto , sans-serif;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 a {
@@ -49,7 +49,16 @@ button , .pre-footer {
     /* above don't change*/
 
 }
-/*  */
+
+/* Padding all page */
+.nav-bar,
+.hero,
+.content,
+.quote,
+.pre-footer {
+    padding: 0 260px;
+}
+
 
 /* nav-bar */
 
@@ -57,17 +66,22 @@ button , .pre-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-grow: 1;
     height: 50px;
-    
-
 }
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
 
 ul {
     display: flex;
     justify-content: center;
     align-items: center;
     /* above don't change*/
+    gap: 40px;
 
 }
 
@@ -88,7 +102,7 @@ ul {
 }
 
 .hero-secondary-text {
-    font-size: 36px;
+    font-size: 18px;
     color: #E5E7Eb;
     font-weight: 900;
     /* above don't change*/
@@ -133,14 +147,14 @@ ul {
     /* above don't change*/
 }
 
-/* Bottom Part */
+/* Pre Footer Section */
 
-.bottom-part {
+.pre-footer {
     display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    margin: 40px;
 }
 
+/* Footer Section */
 footer {
     display: flex;
     justify-content: center;
