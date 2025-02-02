@@ -90,8 +90,11 @@ ul {
 .hero {
     background-color: #1F2937;
     /* above don't change*/
-
+    padding: 60px 260px;
+    display: flex;
+    gap: 200px;
 }
+
 
 .hero-main-text {
     font-size: 48px;
@@ -104,10 +107,20 @@ ul {
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7Eb;
-    font-weight: 900;
     /* above don't change*/
 
 }
+
+button {
+    width: 80px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20%;
+    border: 0px;
+    color: #E5E7Eb;
+    font-weight: 600;
+}
+
 
 .hero img {
     width: 600px;
@@ -152,6 +165,10 @@ ul {
 .pre-footer {
     display: flex;
     margin: 40px;
+}
+
+.pre-footer button {
+    border: 1px solid white;
 }
 
 /* Footer Section */
