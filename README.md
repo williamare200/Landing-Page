@@ -6,3 +6,4 @@
 ## 3.basic styles outcome-fonts
 ## 4.go slowly doing one part at time ex: footer, header, hero, content,etc
 
+### 02/02/25 today goal: fix header(nav) like desired outcome 
