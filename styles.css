@@ -84,6 +84,11 @@ ul {
 
 }
 
+ul li a {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
 /* Hero section */
 
 .hero {
@@ -223,6 +228,6 @@ footer {
     justify-content: center;
     align-items: center;
     color: #E5E7Eb;
-    height: 50px;
+    min-height: 60px;
 }
 
