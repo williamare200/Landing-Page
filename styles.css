@@ -44,7 +44,7 @@ li {
 
 }
 
-button , .pre-footer {
+button , .call-to-action {
     background-color: #3882F6;
     /* above don't change*/
 
@@ -54,8 +54,7 @@ button , .pre-footer {
 .nav-bar,
 .hero,
 .content,
-.quote,
-.pre-footer {
+.quote {
     padding: 0 260px;
 }
 
@@ -115,7 +114,7 @@ button {
     width: 80px;
     margin-top: 20px;
     padding: 10px;
-    border-radius: 20%;
+    border-radius: 10px;
     border: 0px;
     color: #E5E7Eb;
     font-weight: 600;
@@ -125,6 +124,8 @@ button {
 .hero img {
     width: 600px;
     height: 300px;
+    border-radius: 10px;
+    border: 1px solid lightblue;
 }
 
 
@@ -190,15 +191,30 @@ button {
     text-align: end;
     font-weight: bold; 
 }
-/* Pre Footer Section */
+/* Call to actionSection */
 
-.pre-footer {
-    /* display: flex; */
-    /* margin: 40px; */
+.call-to-action {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 260px;
+    padding: 40px 80px;
+    border-radius: 20px;
+    color: #E5E7Eb;
 }
 
-.pre-footer button {
-    border: 1px solid white;
+.left-call p  {
+    margin-bottom: 10px;
+}
+
+#first-p {
+    font-weight: bold;
+}
+
+.container-button button {
+    margin-top: 0;
+    border: 2px solid white;
 }
 
 /* Footer Section */
