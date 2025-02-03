@@ -193,8 +193,8 @@ button {
 /* Pre Footer Section */
 
 .pre-footer {
-    display: flex;
-    margin: 40px;
+    /* display: flex; */
+    /* margin: 40px; */
 }
 
 .pre-footer button {
