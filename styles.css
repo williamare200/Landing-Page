@@ -170,6 +170,7 @@ button {
     border: 3px solid #3882F6;
     border-radius: 20px;
     width: 260px;
+    height: 170px;
 }
 
 .card p {
